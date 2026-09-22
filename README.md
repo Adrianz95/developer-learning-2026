@@ -1,6 +1,6 @@
 # Developer-learning-2026
 
-Este es un pequeño proyecto para prácticar Git y GitHub.
+Este es un pequeño proyecto para prácticar Git y GitHub. Actualmente estamos con los Pull Request.
 
 ## Tecnologías
 
@@ -9,7 +9,8 @@ Este es un pequeño proyecto para prácticar Git y GitHub.
 
 ## Requisitos
 
-Requiere la instalación de Git en local.
+- Instalación de VSC
+- Instalación de Git en local
 
 ## Instalación
 

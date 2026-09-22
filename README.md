@@ -1,6 +1,7 @@
 # Developer-learning-2026
 
 Este es un pequeño proyecto para prácticar Git y GitHub.
+Estamos haciendo push para revisar los PR y posteriormente hacer un merge a la rama principal.
 
 ## Tecnologías
 
@@ -9,7 +10,8 @@ Este es un pequeño proyecto para prácticar Git y GitHub.
 
 ## Requisitos
 
-Requiere la instalación de Git en local.
+- Instalación de VSC
+- Instalación de Git en local
 
 ## Instalación
 

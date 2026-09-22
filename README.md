@@ -1,6 +1,7 @@
 # Developer-learning-2026
 
-Este es un pequeño proyecto para prácticar Git y GitHub. Actualmente estamos con los Pull Request.
+Este es un pequeño proyecto para prácticar Git y GitHub.
+Estamos haciendo push para revisar los PR y posteriormente hacer un merge a la rama principal.
 
 ## Tecnologías
 

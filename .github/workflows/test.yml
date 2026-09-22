@@ -1,0 +1,19 @@
+name: Mi primera Action
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Comprobar archivos
+        run: ls -la
+
+      - name: Mostrar mensaje
+        run: echo "¡La automatización funciona!"

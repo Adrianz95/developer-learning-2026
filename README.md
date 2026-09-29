@@ -1,17 +1,35 @@
 # Developer-learning-2026
 
-El objetivo es aprender el roadmap y cumplir estrictamente con los tiempos de estudio cada semana.
+A personal repository for structured professional development.
 
-Repositorio personal de aprendizaje profesional.
+The goal of this repository is to follow the 2026 learning roadmap consistently, maintain a disciplined weekly study routine, and build practical skills through theory, exercises, and projects.
 
-## Tecnologías
+## Technologies
 
 - Git
 - GitHub
 - Linux
 - TypeScript
-- React
-- Java
-- Spring Boot
-- PostregreSQL
-- Docker
+
+## Week 2 - TypeScript
+
+### Monday
+
+#### Theory
+
+- Basic types
+- Arrays
+- Objects
+- Functions
+- Interfaces
+- Type aliases
+- Optional properties
+
+#### Practice
+
+- Typed variables
+- Typed functions
+- Product objects
+- Product arrays
+- Product filtering
+- Product search

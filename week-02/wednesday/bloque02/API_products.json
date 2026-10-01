@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Teclado Mecánico RGB",
+    "price": 89.99
+  },
+  {
+    "id": 2,
+    "name": "Ratón Ergonómico Inalámbrico",
+    "price": 45.5
+  },
+  {
+    "id": 3,
+    "name": "Monitor Gaming 27\" 144Hz",
+    "price": 229.0
+  },
+  {
+    "id": 4,
+    "name": "Auriculares con Cancelación de Ruido",
+    "price": 120.0
+  },
+  {
+    "id": 5,
+    "name": "Alfombrilla de Escritorio XL",
+    "price": 19.95
+  },
+  {
+    "id": 6,
+    "name": "Soporte para Portátil de Aluminio",
+    "price": 34.99
+  },
+  {
+    "id": 7,
+    "name": "Webcam Pro 1080p",
+    "price": 68.0
+  },
+  {
+    "id": 8,
+    "name": "Micrófono USB para Streaming",
+    "price": 95.0
+  },
+  {
+    "id": 9,
+    "name": "Memoria RAM DDR4 16GB",
+    "price": 75.5
+  },
+  {
+    "id": 10,
+    "name": "Disco Duro Externo SSD 1TB",
+    "price": 110.0
+  }
+]

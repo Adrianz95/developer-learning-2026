@@ -1,0 +1,167 @@
+/* Color Palette: Dark Soft Theme */
+:root {
+  --bg-main: #0f172a;       /* Azul muy oscuro para el fondo general */
+  --bg-card: #1e293b;       /* Gris azulado oscuro para tarjetas y contenedores */
+  --bg-card-hover: #334155; /* Tono ligeramente más claro al pasar el cursor */
+  --border-color: #334155;  /* Color de bordes suaves */
+  --text-primary: #f8fafc;  /* Texto principal blanco hueso */
+  --text-secondary: #94a3b8;/* Texto secundario gris claro */
+  
+  /* Estados */
+  --completed-bg: #064e3b;  /* Verde oscuro para tareas completadas */
+  --completed-border: #047857;
+  --completed-text: #a7f3d0;
+  
+  /* Botones */
+  --btn-bg: #2563eb;
+  --btn-hover: #1d4ed8;
+}
+
+body {
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+  margin: 0;
+  min-height: 100vh;
+}
+
+.app-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 24px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--bg-card);
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  border: 1px solid var(--border-color);
+}
+
+h1 {
+  text-align: center;
+  color: var(--text-primary);
+  margin-bottom: 24px;
+}
+
+/* Filtros */
+.task-filter {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.task-filter button {
+  padding: 8px 16px;
+  border: 1px solid var(--border-color);
+  background-color: var(--bg-main);
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  color: var(--text-secondary);
+  transition: all 0.2s ease;
+}
+
+.task-filter button:hover {
+  background-color: var(--bg-card-hover);
+  color: var(--text-primary);
+}
+
+.task-filter button.active {
+  background-color: var(--btn-bg);
+  color: #ffffff;
+  border-color: var(--btn-bg);
+}
+
+/* Tarjetas */
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.task-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 18px;
+  background-color: var(--bg-main);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+}
+
+.task-card:hover {
+  border-color: #475569;
+}
+
+.task-details {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.task-id {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #cbd5e1;
+  background-color: #334155;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.task-title {
+  color: var(--text-primary);
+  font-size: 1rem;
+  margin: 0;
+}
+
+/* Tareas completadas */
+.task-card.completed {
+  background-color: var(--completed-bg);
+  border-color: var(--completed-border);
+}
+
+.task-card.completed .task-title {
+  text-decoration: line-through;
+  color: var(--completed-text);
+}
+
+.task-card.completed .task-id {
+  background-color: #065f46;
+  color: var(--completed-text);
+}
+
+/* Botón de acción */
+.toggle-btn {
+  padding: 8px 14px;
+  background-color: var(--btn-bg);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.875rem;
+  transition: background-color 0.2s;
+}
+
+.toggle-btn:hover {
+  background-color: var(--btn-hover);
+}
+
+.task-card.completed .toggle-btn {
+  background-color: #059669;
+}
+
+.task-card.completed .toggle-btn:hover {
+  background-color: #047857;
+}
+
+/* Mensaje sin tareas */
+.empty-message {
+  text-align: center;
+  color: #38bdf8;
+  background-color: #0f172a;
+  border: 1px solid #1e3a8a;
+  padding: 16px;
+  border-radius: 8px;
+  font-weight: 500;
+}

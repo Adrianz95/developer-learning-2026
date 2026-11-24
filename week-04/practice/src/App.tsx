@@ -1,12 +1,13 @@
 
 import './App.css'
-import { TodoDashboard } from './components/TodoDashboard'
+import { BrowserRouter } from 'react-router';
+import { AppRoutes } from './routes/routes';
 
 function App() {
   return (
-    <div>
-      <TodoDashboard/>
-    </div>
+    <BrowserRouter>
+      <AppRoutes/>
+    </BrowserRouter>
   );
 }
 

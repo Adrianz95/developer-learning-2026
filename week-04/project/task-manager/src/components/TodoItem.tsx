@@ -1,4 +1,5 @@
 
+import { unstable_batchedUpdates } from "react-dom";
 import type { TodoItemProps } from "../types/todo";
 
 export function TodoItem({ todo, onToggle }: TodoItemProps) {
